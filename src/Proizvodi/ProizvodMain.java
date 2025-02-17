@@ -12,21 +12,21 @@ public class ProizvodMain {
         do {
             proizvod = new Proizvod();
             System.out.print("Unesti naziv: ");
-            rijec=scanner.nextLine();
+            rijec = scanner.nextLine();
             proizvod.setNazivProizvoda(rijec);
             System.out.print("Unesti cijena: ");
-            rijec=scanner.nextLine();
-            rijec = rijec.replace(",",".");
+            rijec = scanner.nextLine();
+            rijec = rijec.replace(",", ".");
             proizvod.setCijenaProizvoda(Double.parseDouble(rijec));
             System.out.print("Unesti kolicina: ");
-            rijec=scanner.nextLine();
+            rijec = scanner.nextLine();
             proizvod.setKolicinaProizvoda(Integer.parseInt(rijec));
             proizvodi.add(proizvod);
             System.out.print("Prekini unos y/n:");
-            rijec=scanner.nextLine();
-        }while (rijec.equalsIgnoreCase("n"));
+            rijec = scanner.nextLine();
+        } while (rijec.equalsIgnoreCase("n"));
 
-        for (Proizvod prod : proizvodi){
+        for (Proizvod prod : proizvodi) {
             System.out.println(prod.ispisProizvoda());
         }
     }

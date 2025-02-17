@@ -5,7 +5,8 @@ public class Proizvod {
     private double cijenaProizvoda;
     private int kolicinaProizvoda;
 
-    public Proizvod(){}
+    public Proizvod() {
+    }
 
     public Proizvod(String nazivProizvoda, double cijenaProizvoda, int kolicinaProizvoda) {
         this.nazivProizvoda = nazivProizvoda;
@@ -13,8 +14,8 @@ public class Proizvod {
         this.kolicinaProizvoda = kolicinaProizvoda;
     }
 
-    public String ispisProizvoda(){
-        return "Naziv proizvoda je: "+nazivProizvoda+ ", "+ "cijena proizvoda je: "+ cijenaProizvoda+"€, broj dostupnih komada je: "+kolicinaProizvoda;
+    public String ispisProizvoda() {
+        return "Naziv proizvoda je: " + nazivProizvoda + ", " + "cijena proizvoda je: " + cijenaProizvoda + "€, broj dostupnih komada je: " + kolicinaProizvoda;
     }
 
     public String getNazivProizvoda() {
