@@ -23,7 +23,6 @@ public class ProizvodMain {
             proizvod.setKolicinaProizvoda(Integer.parseInt(rijec));
             proizvodi.add(proizvod);
             System.out.print("Prekini unos y/n:");
-            rijec = "n";
             rijec=scanner.nextLine();
         }while (rijec.equalsIgnoreCase("n"));
 
