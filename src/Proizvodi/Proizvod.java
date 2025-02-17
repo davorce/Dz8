@@ -33,10 +33,6 @@ public class Proizvod {
         this.cijenaProizvoda = cijenaProizvoda;
     }
 
-    public int getKolicinaProizvoda() {
-        return kolicinaProizvoda;
-    }
-
     public void setKolicinaProizvoda(int kolicinaProizvoda) {
         this.kolicinaProizvoda = kolicinaProizvoda;
     }
